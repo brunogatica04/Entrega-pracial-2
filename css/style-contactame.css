@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(21, 21, 21);
+}
+
+header .logo {
+    color: rgb(240, 122, 0);
+    padding: 4vh 20px;
+    display: flex;
+    justify-content: center;
+}
+
+header .menu {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+header .menu ul{
+    display: flex;
+    list-style: none;
+}
+
+header .menu ul li {
+    width: 100px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .menu ul li a{
+    text-decoration: none;
+    color: rgb(240, 122, 0);
+    font-weight: 800;
+}
+
+header .menu ul li a:hover {
+    background-color: rgb(240, 122, 0);
+    color: black;
+    padding: 8px 20px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 0px 30px 5px rgba(204,78,1,0.75);
+}
+
+body {
+    background-color: black;
+}
+
+
+        /* Contenido PRINCIPAL */
+
+main {
+    padding: 20px;
+    position: relative;
+}
+
+main .contenedor-formulario {
+    display: flex;
+}
+
+main .contenedor-formulario .mensaje {
+    text-align: center;
+    padding-top: 100px;
+}
+
+main .contenedor-formulario .mensaje-textos {
+    color: rgb(240, 122, 0);
+    font-size: 15px;
+    font-weight: 900;
+    padding: 20px 50px;
+}
+
+main .contenedor-formulario .mensaje .foto {
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(204,78,1);
+    background-image: url(/img/foto.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+main form {
+    width: 400px;
+    background-color: rgb(21, 21, 21);
+    padding: 30px;
+    border-radius: 4px;
+    color: rgb(240, 122, 0);
+}
+
+main form h4 {
+    font-size: 18px;
+    margin: 0px 0px 20px 0px;
+}
+
+main form .controls {
+    width: 100%;
+    background-color: black;
+    color: rgb(240, 122, 0);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(204,78,1);
+    font-style: italic;
+    font-size: 18px;
+}
+
+main form .boton {
+    padding: 5px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 900;
+    border: 2px solid rgba(204,78,1,0.75);
+    background-color: rgb(20, 20, 20);
+    color: rgba(204,78,1,0.75);
+}
+
+main form .boton:hover {
+    box-shadow: 0px 0px 30px 5px rgba(204,78,1,0.75);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(204,78,1);
+}
+
+
+
+        /* Contenido PIE DE PÁGINA */
+
+footer {
+    font-size: 15px;
+    font-weight: bolder;
+    line-height: 30px;
+    background-color: rgb(21, 21, 21);
+}
+        
+footer .logo {
+    color: rgb(240, 122, 0);
+    padding: 4vh 20px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.7px solid rgb(238, 156, 66);
+}
+        
+footer .redes {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+}
+        
+footer .redes a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    color: black;
+}
+        
+footer .redes a span {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(240, 122, 0);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+        
+footer .redes a div {
+    color: rgb(240, 122, 0);
+    list-style: none;
+}
+        
+footer .derechos {
+    text-align: center;
+    color: black;
+    background-color: rgb(204,78,1);
+}
